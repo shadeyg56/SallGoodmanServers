@@ -5,6 +5,7 @@ const config = require("./config.json")
 const fs = require("fs")
 
 client.config = config;
+client.bot_owners = ["300396755193954306", "290003856308568074"]
 
 fs.readdir("./events/", (err, files) => {
   if (err) return console.error(err);
