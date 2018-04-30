@@ -27,7 +27,7 @@ exports.conf = {
 
 exports.help = {
   name: "update",
-  category: "System",
+  category: "Bot Owner",
   description: "updates the bot by pulling from its git repository.",
   usage: "update"
 };
