@@ -12,7 +12,7 @@ exports.conf = {
 
 exports.help = {
   name: "ping",
-  category: "Miscelaneous",
-  description: "Get the latcency of the bot heartbeat and API",
+  category: "Miscellaneous",
+  description: "Get the latency of the bot heartbeat and API",
   usage: "ping"
 };
