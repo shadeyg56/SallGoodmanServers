@@ -6,6 +6,7 @@ exports.run = async (client, message, args, level) => {
 	let x = await message.guild.channels.get("375167528399405056").send(embed).catch(console.error);
 	x.react("👍").catch(console.error);
 	x.react("👎").catch(console.error);
+  message.reply("Your suggestion has been sent. Thanks!");
 
 }
 
